@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: red;
+    width: 20vw;
+    font-family: 'Chivo Mono', monospace;
+   
+}
+.sidebar nav{
+    padding: 45px;
+    font-size: 30px;
+}
+.sidebar li{
+    list-style: none;
+    font-size: 30px;
+    padding: 45px 0;
+}
+.main{
+    background-color: yellow;
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
